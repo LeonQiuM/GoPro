@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 // 申明
 /*
@@ -18,6 +21,7 @@ func main() {
 	fmt.Println(x)
 	fmt.Println(y)
 
-	var a ANC = 30 //类型
+	var a ANC = 30 //自定义类型
 	fmt.Println(a)
+	fmt.Println(reflect.TypeOf(a))
 }

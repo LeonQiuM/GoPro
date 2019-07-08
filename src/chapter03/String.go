@@ -18,7 +18,7 @@ func main() {
 	s := "Hello World"
 	a := "HHHH"
 	fmt.Println(len(s))
-	fmt.Println(s[0], s[3])
+	fmt.Println(s[0], s[3]) //输出了字符的十进制ascii数值
 	fmt.Println(a == "HHHH")
 	// 字符串切片Slice
 	s2 := "Hello 李宁" // 5+1+3+3  utf8中3个字节表示一个汉字
