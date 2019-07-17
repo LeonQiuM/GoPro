@@ -26,11 +26,30 @@ func main() {
 
 	// 函数返回多个值的接收
 
-	var f_obj, f_err = os.Open("/Users/qiumeng/GoglandProjects/GoPro/src/chapter01/Declaration.go")
+	var f_obj, f_err = os.Open("/Users/Leon/go/GoPro/src/chapter01/Declaration.go")
 	if f_err == nil {
 		fmt.Println(f_obj.Name())
 		fmt.Println(f_obj.Fd())
 	} else {
+		fmt.Println("err,", f_err)
+	}
+
+	MoreVar()
+	EmptyPoint()
+}
+
+func MoreVar() {
+	// 多变量赋值
+	x, y := 1, 2
+	x, y = x+1, y+2 // 多变量赋值，先计算右侧表达式，在进行赋值
+	fmt.Println(x, y)
+}
+
+func EmptyPoint() {
+	f_obj, _ := os.Open("./Declaration.go") //忽略Open的err返回值
+	if f_obj == nil {
 		fmt.Println("err")
+	} else {
+		fmt.Println(f_obj.Name())
 	}
 }
