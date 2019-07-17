@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // 使用 new 创建变量
-// new 是内奸函数，使用不需要导入
+// new 是内建函数，使用不需要导入
 
 /*
 new(T) 创建一个 T 类型的匿名变量指针
@@ -11,10 +11,10 @@ x:=new(T)
 */
 func main() {
 	p := new(int)
-	fmt.Println(p)
-	fmt.Println(*p)
+	fmt.Println(p)  // 指针
+	fmt.Println(*p) // int初始化为0
 
-	*p = 123
+	*p = 123 // 赋值
 	fmt.Println(*p)
 
 	// 区别于普通的申明变量，不在需要变量名 ，p 为匿名变量的指针

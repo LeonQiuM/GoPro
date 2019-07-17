@@ -46,6 +46,7 @@ func MoreVar() {
 }
 
 func EmptyPoint() {
+	// 空标识符，是程序内置特殊成员	，无法被重新定义
 	f_obj, _ := os.Open("./Declaration.go") //忽略Open的err返回值
 	if f_obj == nil {
 		fmt.Println("err")
