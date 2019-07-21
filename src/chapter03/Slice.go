@@ -26,6 +26,7 @@ func main() {
 		fmt.Println(n)
 	}
 	reverse(n3)
+
 	fmt.Println(n3)      //  切片被翻转
 	fmt.Println(numbers) // 源数组的切片位置也被翻转
 
