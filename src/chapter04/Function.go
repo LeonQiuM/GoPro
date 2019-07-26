@@ -8,7 +8,7 @@ import "fmt"
 任何乐行的参数传递，都是拷贝传递，，区别是拷贝对象还是拷贝指针
 */
 
-func do_test(x *int) {
+func Jobt(x *int) {
 	fmt.Printf("Pointer:,%p,target:,%v\n", &x, x)
 }
 func main() {
@@ -17,5 +17,5 @@ func main() {
 	p := &a
 	fmt.Printf("Pointer:,%p,target:,%v\n", &p, p)
 	//  将指针作为函数参数传入函数，收到的其实也是原指针的拷贝，内存地址不会改变
-	do_test(p)
+	Jobt(p)
 }
