@@ -8,11 +8,12 @@ import (
 
 func process(lineStr string) (worldCount, spaceCount, numberCount, otherCount int) {
 	strRune := []rune(lineStr)
+	fmt.Println(strRune)
 	for _, value := range strRune {
 		switch {
 		case (value >= 'a' && value <= 'z') || (value >= 'A' && value <= 'Z'):
 			worldCount++
-		case value == ' ':
+		case value == 32:
 			spaceCount++
 		case value >= '0' && value <= '9':
 			numberCount++
@@ -31,5 +32,5 @@ func main() {
 		fmt.Println("read from console err:", err)
 	}
 	worldCount, spaceCount, numberCount, otherCount := process(string(line))
-	fmt.Printf("worldCount:%d\n spaceCount:%d\n numberCount:%d\n otherCount:%d\n", worldCount, spaceCount, numberCount, otherCount)
+	fmt.Printf("worldCount:%d\nspaceCount:%d\nnumberCount:%d\notherCount:%d\n", worldCount, spaceCount, numberCount, otherCount)
 }
