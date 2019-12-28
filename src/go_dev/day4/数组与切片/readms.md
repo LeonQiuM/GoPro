@@ -46,4 +46,7 @@ var ages [...][3]int{
 ### 切片的定义
 ```
 var 变量名 []类型
++ make创建切片
+slice:= make([]type,len)
+slice:= make([]type,len,cap)
 ```
