@@ -5,13 +5,15 @@ import (
 	"time"
 )
 
-// 匿名字段
+// Car 匿名字段
 /*
 结构体中的字段可以没有名字，即匿名字段
 */
 type Car struct {
 	Name string
 }
+
+// Train docs
 type Train struct {
 	Car
 	start time.Time
