@@ -35,6 +35,7 @@ stu.Name
 所有字段在内存中是连续的
 ```
 var std1 Student
+type std Student // 别名
 std1.Name = "James"
 std1.Age = 33
 std1.Score = 20
