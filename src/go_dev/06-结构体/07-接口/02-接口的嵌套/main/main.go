@@ -13,8 +13,8 @@ type ReadWriter interface {
 }
 
 type Look interface {
-	Look()
-	UnLook()
+	fLook()
+	fUnLook()
 }
 
 type File struct {
@@ -33,8 +33,12 @@ func (f *File) Write() {
 }
 
 func main() {
-	var f File
+	var f *File
 	f.Read()
 	f.Write()
+	var test interface{}
+	test = f
+	v, ok := test.(ReadWriter) //判断一个结构体是否存在某个接口
+	fmt.Println(ok, v)
 
 }
