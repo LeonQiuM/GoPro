@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="234c2c72-3a42-4d69-a153-1fa34a47493a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_dev/08-终端读写/02-带缓冲区的读写/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_dev/09-package/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_dev/10-文件操作/01-基本读取/main/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_dev/10-文件操作/01-基本读取/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_dev/10-文件操作/02-bufio读取/main/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_dev/10-文件操作/02-bufio读取/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_dev/10-文件操作/03-ioutil读取整个文件/main/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_dev/10-文件操作/03-ioutil读取整个文件/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go_dev/10-文件操作/readme.md" afterDir="false" />
+    <list default="true" id="234c2c72-3a42-4d69-a153-1fa34a47493a" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/08-终端读写/01-终端读写/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_dev/08-终端读写/01-终端读写/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +76,7 @@
       <recent name="$PROJECT_DIR$/bilibili_go" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/go_dev" />
       <recent name="$PROJECT_DIR$/go_dev/10-文件操作/03-ioutil读取整个文件/main" />
       <recent name="$PROJECT_DIR$/go_dev/10-文件操作/02-buffio读取/main" />
     </key>
@@ -182,10 +172,11 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="821" y="58" key="#GOROOT/0.23.1920.1177@0.23.1920.1177" timestamp="1578491244030" />
-    <state x="231" y="132" key="CommitChangelistDialog2" timestamp="1578489797010">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="231" y="152" key="CommitChangelistDialog2" timestamp="1578497503552">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="231" y="132" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1578489797010" />
+    <state x="231" y="152" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1578497503552" />
     <state width="995" height="216" key="GridCell.Tab.0.bottom" timestamp="1578493550481">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -202,10 +193,11 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="995" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
-    <state x="460" y="277" key="Vcs.Push.Dialog.v2" timestamp="1578489801240">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="460" y="295" key="Vcs.Push.Dialog.v2" timestamp="1578494666735">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="460" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1578489801240" />
+    <state x="460" y="295" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1578494666735" />
     <state x="225" y="168" width="838" height="1032" key="search.everywhere.popup" timestamp="1578491882875">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
