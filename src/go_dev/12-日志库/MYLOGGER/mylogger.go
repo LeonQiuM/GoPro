@@ -1,0 +1,9 @@
+package MYLOGGER
+
+//
+/*
+
+ */
+func main() {
+
+}
