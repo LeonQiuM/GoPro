@@ -16,6 +16,7 @@ func main() {
 		log.Info("info log")
 		log.Warning("warning log")
 		log.Error("Error log")
+		log.Fatal("Fatal log")
 		time.Sleep(time.Second * 2)
 	}
 

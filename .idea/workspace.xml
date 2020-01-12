@@ -1,149 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="234c2c72-3a42-4d69-a153-1fa34a47493a" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/consule.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/mylogger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go_dev/12-日志库/main/main.go" afterDir="false" />
+    <list default="true" id="234c2c72-3a42-4d69-a153-1fa34a47493a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/go_dev/12-日志库/01-runtime-dome/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Go_metrics/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Go_metrics/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01/Declaration.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/Declaration.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01/New.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/New.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01/Pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/Pointer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01/PointerFunction.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/PointerFunction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01/ShortVar.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/ShortVar.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01/var.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter01/var.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02/Assignment.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/Assignment.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02/CustomType.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/CustomType.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02/For.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/For.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02/if.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/if.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02/package.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/package.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02/switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter02/switch.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/Bool.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Bool.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/Const.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Const.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/Float.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Float.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/Int.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Int.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/Iota.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Iota.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/Map.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/NoType.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/NoType.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/Plural.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Plural.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/Slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Slice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/SliceAppend.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/SliceAppend.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/String.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/String.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/Struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/Struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/string1.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/string1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/string2.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/string2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/string3.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/string3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03/string4.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter03/string4.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/Error.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/Error.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/Function.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/Function.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/MultiReturn.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/MultiReturn.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/Rescursion.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter04/Rescursion.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/practice-01.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/practice-01.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/practice-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/practice-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/practice-02.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/practice-02.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/practice-03.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/practice-03.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/practice-04.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/practice-04.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day1/example1/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day1/example1/hello.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day1/goroute/goroute.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day1/goroute/goroute.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day1/goroute/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day1/goroute/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day1/goroute_example/gorouter/add.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day1/goroute_example/gorouter/add.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day1/goroute_example/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day1/goroute_example/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day1/package_example/calc/add.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day1/package_example/calc/add.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day1/package_example/calc/sub.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day1/package_example/calc/sub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day1/package_example/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day1/package_example/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/example1/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/example1/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/example2/add/add.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/example2/add/add.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/example2/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/example2/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/example2/sub/sub.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/example2/sub/sub.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/example3/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/example3/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/example4/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/example4/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/example5/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/example5/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/example6/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/example6/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/example7/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/example7/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/homework/practice1.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/homework/practice1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/homework/practice2.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/homework/practice2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/homework/practice3.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/homework/practice3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day2/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/Built-InFunction/main/DiffNew&amp;Make.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/Built-InFunction/main/DiffNew&amp;Make.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/Built-InFunction/main/builtIn-New.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/Built-InFunction/main/builtIn-New.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/Built-InFunction/main/builtIn-append.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/Built-InFunction/main/builtIn-append.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/Built-InFunction/main/builtIn-error.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/Built-InFunction/main/builtIn-error.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/Built-InFunction/main/recursionFunc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/Built-InFunction/main/recursionFunc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/Built-InFunction/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/Built-InFunction/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/For.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/For.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/Point.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/Point.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/StrconvINterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/StrconvINterface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/StringsInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/StringsInterface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/Switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/Switch.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/TimeInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/TimeInterface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/example1/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/example1/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/huiwen/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/huiwen/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/wanshu/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/wanshu/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/01-基础知识/day3/worldCount/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/worldCount/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/02-数组与切片/day4/排序和查找/整数排序/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/02-数组与切片/day4/排序和查找/整数排序/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/02-数组与切片/day4/数组与切片/mainArry/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/02-数组与切片/day4/数组与切片/mainArry/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/02-数组与切片/day4/数组与切片/readms.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/02-数组与切片/day4/数组与切片/readms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/02-数组与切片/day4/数组与切片/切片/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/02-数组与切片/day4/数组与切片/切片/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/02-数组与切片/day4/数组与切片/多维数组/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/02-数组与切片/day4/数组与切片/多维数组/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/02-数组与切片/day4/数组与切片/斐波那契数列/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/02-数组与切片/day4/数组与切片/斐波那契数列/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/02-数组与切片/day4/闭包/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/02-数组与切片/day4/闭包/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/03-map相关/01-声明与初始化相关/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/03-map相关/01-声明与初始化相关/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/03-map相关/02-map相关操作/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/03-map相关/02-map相关操作/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/03-map相关/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/03-map相关/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/04-包/01-线程同步/互斥锁/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/04-包/01-线程同步/互斥锁/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/04-包/01-线程同步/读写锁/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/04-包/01-线程同步/读写锁/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/04-包/main" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/04-包/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/05-排序/01-冒泡/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/05-排序/01-冒泡/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/05-排序/02-选择/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/05-排序/02-选择/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/05-排序/03-插入/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/05-排序/03-插入/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/05-排序/04-快速/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/05-排序/04-快速/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/01-链表/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/01-链表/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/03-工厂模式/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/03-工厂模式/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/04-结构体的 tag/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/04-结构体的 tag/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/05-匿名字段/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/05-匿名字段/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/06-方法/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/06-方法/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/06-方法/readms.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/06-方法/readms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/01-接口的运用/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/01-接口的运用/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/02-接口的嵌套/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/02-接口的嵌套/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/03-接口类型的断言/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/03-接口类型的断言/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/04-loadBalance/balance/balance.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/04-loadBalance/balance/balance.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/04-loadBalance/balance/instance.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/04-loadBalance/balance/instance.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/04-loadBalance/balance/manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/04-loadBalance/balance/manager.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/04-loadBalance/balance/random.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/04-loadBalance/balance/random.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/04-loadBalance/balance/roundrobin.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/04-loadBalance/balance/roundrobin.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/04-loadBalance/main/hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/04-loadBalance/main/hash.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/04-loadBalance/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/04-loadBalance/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/07-接口/readms.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/07-接口/readms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/08-homework/model/book.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/08-homework/model/book.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/08-homework/model/stu.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/08-homework/model/stu.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/06-结构体/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/readmd.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/07-反射/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/07-反射/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/07-反射/readms.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/07-反射/readms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/08-终端读写/01-终端读写/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/08-终端读写/01-终端读写/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/08-终端读写/02-带缓冲区的读写/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/08-终端读写/02-带缓冲区的读写/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/08-终端读写/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/08-终端读写/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/08-终端读写/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/08-终端读写/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/09-package/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/09-package/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/01-基本读取/main/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/01-基本读取/main/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/01-基本读取/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/01-基本读取/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/02-bufio读取/main/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/02-bufio读取/main/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/02-bufio读取/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/02-bufio读取/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/03-ioutil读取整个文件/main/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/03-ioutil读取整个文件/main/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/03-ioutil读取整个文件/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/03-ioutil读取整个文件/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/04-文件写入/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/04-文件写入/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/04-文件写入/main/xx.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/04-文件写入/main/xx.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/04-文件写入/main/xxx.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/04-文件写入/main/xxx.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/04-文件写入/main/xxxx.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/04-文件写入/main/xxxx.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/05-二进制用途/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/05-二进制用途/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/06-用户输入/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/06-用户输入/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/10-文件操作/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/10-文件操作/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/11-时间/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/11-时间/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/11-时间/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/11-时间/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_dev/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/consule.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/consule.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/mylogger.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/mylogger.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,8 +36,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/consule.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="408">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="e#12#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/mylogger.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="e#18#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,20 +60,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/main/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="437">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#27#71#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/go_dev/01-基础知识/day3/TimeInterface.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -230,8 +99,11 @@
         <option value="$PROJECT_DIR$/go_dev/12-日志库/MYLOGGER/mylogger.go" />
         <option value="$PROJECT_DIR$/go_dev/12-日志库/MYLOGGER/consule.go" />
         <option value="$PROJECT_DIR$/go_dev/12-日志库/MYLOGGER/main/main.go" />
-        <option value="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/main/main.go" />
         <option value="$PROJECT_DIR$/src/go_dev/01-基础知识/day3/TimeInterface.go" />
+        <option value="$PROJECT_DIR$/src/go_dev/12-日志库/01-runtime-dome/main/main.go" />
+        <option value="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/consule.go" />
+        <option value="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/main/main.go" />
+        <option value="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/mylogger.go" />
       </list>
     </option>
   </component>
@@ -272,15 +144,49 @@
               <item name="GoPro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="go_dev" type="462c0819:PsiDirectoryNode" />
-              <item name="01-基础知识" type="462c0819:PsiDirectoryNode" />
+              <item name="12-日志库" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoPro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="go_dev" type="462c0819:PsiDirectoryNode" />
-              <item name="01-基础知识" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
+              <item name="12-日志库" type="462c0819:PsiDirectoryNode" />
+              <item name="01-runtime-dome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="go_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="12-日志库" type="462c0819:PsiDirectoryNode" />
+              <item name="01-runtime-dome" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="go_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="12-日志库" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="go_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="12-日志库" type="462c0819:PsiDirectoryNode" />
+              <item name="MYLOGGER" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="go_dev" type="462c0819:PsiDirectoryNode" />
+              <item name="12-日志库" type="462c0819:PsiDirectoryNode" />
+              <item name="MYLOGGER" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,7 +213,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/go_dev/12-日志库/MYLOGGER" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/go_dev/12-日志库/01-runtime-dome" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
@@ -321,11 +227,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/go_dev/12-日志库/01-runtime-dome" />
       <recent name="$PROJECT_DIR$/go_dev/12-日志库/MYLOGGER" />
       <recent name="$PROJECT_DIR$/go_dev/12-日志库" />
       <recent name="$PROJECT_DIR$/go_dev" />
       <recent name="$PROJECT_DIR$/go_dev/10-文件操作/03-ioutil读取整个文件/main" />
-      <recent name="$PROJECT_DIR$/go_dev/10-文件操作/02-buffio读取/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,7 +325,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.34028894" side_tool="true" weight="0.24969174" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04305705" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37136707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,7 +333,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32938644" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3724435" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -555,41 +461,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/01-基础知识/day3/TimeInterface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="342">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/mylogger.go">
+    <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/01-runtime-dome/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/consule.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#27#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/go_dev/01-基础知识/day3/TimeInterface.go">
+    <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/consule.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="408">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#12#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/mylogger.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#18#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
