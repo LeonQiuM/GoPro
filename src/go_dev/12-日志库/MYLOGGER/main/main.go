@@ -9,12 +9,13 @@ import (
 
 func main() {
 
-	log := MYLOGGER.NowLog()
+	log := MYLOGGER.NowLog("info")
 
 	for {
 		log.Debug("debug log")
 		log.Info("info log")
 		log.Warning("warning log")
+		log.Error("Error log")
 		time.Sleep(time.Second * 2)
 	}
 
