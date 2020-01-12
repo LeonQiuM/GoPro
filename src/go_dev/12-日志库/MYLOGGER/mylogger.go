@@ -24,10 +24,6 @@ const (
 	FATAL
 )
 
-type Logger struct {
-	LogLevel LEVEL
-}
-
 func parseLogLevel(s string) (LEVEL, error) {
 	s = strings.ToLower(s)
 

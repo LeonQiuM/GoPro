@@ -1,0 +1,57 @@
+[2020-01-12 22:28:49.054] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:28:51.060] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:28:53.060] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:28:55.066] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:28:57.071] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:28:59.076] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:01.081] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:03.086] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:05.087] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:07.087] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:09.088] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:11.090] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:13.090] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:15.092] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:17.094] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:19.095] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:21.099] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:23.105] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:25.110] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:27.113] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:29.113] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:31.118] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:33.122] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:35.124] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:37.129] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:39.132] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:41.133] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:43.134] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:45.137] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:47.142] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:49.147] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:51.153] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:53.158] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:55.162] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:57.163] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:29:59.172] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:30:30.069] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:30:32.070] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:30:34.071] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:30:36.073] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:30:38.074] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:30:40.076] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:30:42.077] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:30:44.078] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:30:46.079] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:31:02.718] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 22:31:02.718] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:31:04.722] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 22:31:04.722] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:31:06.725] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 22:31:06.725] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:31:08.726] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 22:31:08.726] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:31:10.732] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 22:31:10.732] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 22:31:12.734] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 22:31:12.734] [FATAL] [main.go:main:20] Fatal log
