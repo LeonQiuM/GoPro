@@ -56,9 +56,35 @@ func main() {
 	fmt.Println(now.Sub(timeObj).Hours())
 
 	// sleep
-	n := 10000000000
-	time.Sleep(10000000000)
+	n := 10000000
+	time.Sleep(100000)
 	time.Sleep(time.Duration(n))
 	//time.Sleep(1000*time.Millisecond)
 
+	fmt.Println("-----------")
+	f2()
+
+}
+
+/*
+时区
+*/
+func f2() {
+	now := time.Now() // 本地时间
+	fmt.Println(now)
+	// 明天的这个时间
+	time.Parse("2006-01-02 15:04:05", "2020-01-12 19:30:05") // 解析出来为 utc 时间
+	// 根据字符串加载时区
+	loc, err := time.LoadLocation("Asia/Shanghai")
+	if err != nil {
+		fmt.Println("failed")
+		return
+	}
+	// 按照指定时区解析
+	timeObj, err := time.ParseInLocation("2006-01-02 15:04:05", "2020-01-12 19:30:05", loc)
+	timeObj, err = time.ParseInLocation("2006-01-02 15:04:05", "2020-01-12 19:36:05", time.Local)
+	if err != nil {
+		fmt.Println("failed2")
+	}
+	fmt.Println(timeObj)
 }
