@@ -10,7 +10,7 @@ type ConsoleLogger struct {
 }
 
 // NowLog docs
-func NowLog(loglevel string) ConsoleLogger {
+func NowConsoleLog(loglevel string) ConsoleLogger {
 	level, err := parseLogLevel(loglevel)
 	if err != nil {
 		panic(err)

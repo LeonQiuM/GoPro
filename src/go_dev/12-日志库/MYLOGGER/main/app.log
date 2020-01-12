@@ -1,204 +1,56 @@
-[2020-01-12 22:28:49.054] [INFO] [main.go:main:17] info log
-[2020-01-12 22:28:49.054] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:28:49.054] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:28:49.054] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:28:51.059] [INFO] [main.go:main:17] info log
-[2020-01-12 22:28:51.060] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:28:51.060] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:28:51.060] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:28:53.060] [INFO] [main.go:main:17] info log
-[2020-01-12 22:28:53.060] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:28:53.060] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:28:53.060] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:28:55.065] [INFO] [main.go:main:17] info log
-[2020-01-12 22:28:55.066] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:28:55.066] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:28:55.066] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:28:57.071] [INFO] [main.go:main:17] info log
-[2020-01-12 22:28:57.071] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:28:57.071] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:28:57.071] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:28:59.074] [INFO] [main.go:main:17] info log
-[2020-01-12 22:28:59.076] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:28:59.076] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:28:59.076] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:01.080] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:01.081] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:01.081] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:01.081] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:03.086] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:03.086] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:03.086] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:03.086] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:05.086] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:05.087] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:05.087] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:05.087] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:07.087] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:07.087] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:07.087] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:07.087] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:09.088] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:09.088] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:09.088] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:09.088] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:11.090] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:11.090] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:11.090] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:11.090] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:13.090] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:13.090] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:13.090] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:13.090] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:15.092] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:15.092] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:15.092] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:15.092] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:17.093] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:17.094] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:17.094] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:17.094] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:19.095] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:19.095] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:19.095] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:19.095] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:21.099] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:21.099] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:21.099] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:21.099] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:23.105] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:23.105] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:23.105] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:23.105] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:25.109] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:25.110] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:25.110] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:25.110] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:27.113] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:27.113] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:27.113] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:27.113] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:29.113] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:29.113] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:29.113] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:29.113] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:31.117] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:31.117] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:31.117] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:31.118] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:33.122] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:33.122] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:33.122] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:33.122] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:35.123] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:35.124] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:35.124] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:35.124] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:37.128] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:37.129] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:37.129] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:37.129] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:39.132] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:39.132] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:39.132] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:39.132] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:41.132] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:41.133] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:41.133] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:41.133] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:43.134] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:43.134] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:43.134] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:43.134] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:45.137] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:45.137] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:45.137] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:45.137] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:47.142] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:47.142] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:47.142] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:47.142] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:49.146] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:49.147] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:49.147] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:49.147] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:51.152] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:51.152] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:51.153] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:51.153] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:53.158] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:53.158] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:53.158] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:53.158] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:55.162] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:55.162] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:55.162] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:55.162] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:57.163] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:57.163] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:57.163] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:57.163] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:29:59.168] [INFO] [main.go:main:17] info log
-[2020-01-12 22:29:59.171] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:29:59.171] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:29:59.172] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:30:30.069] [INFO] [main.go:main:17] info log
-[2020-01-12 22:30:30.069] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:30:30.069] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:30:30.069] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:30:32.070] [INFO] [main.go:main:17] info log
-[2020-01-12 22:30:32.070] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:30:32.070] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:30:32.070] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:30:34.071] [INFO] [main.go:main:17] info log
-[2020-01-12 22:30:34.071] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:30:34.071] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:30:34.071] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:30:36.073] [INFO] [main.go:main:17] info log
-[2020-01-12 22:30:36.073] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:30:36.073] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:30:36.073] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:30:38.074] [INFO] [main.go:main:17] info log
-[2020-01-12 22:30:38.074] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:30:38.074] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:30:38.074] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:30:40.076] [INFO] [main.go:main:17] info log
-[2020-01-12 22:30:40.076] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:30:40.076] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:30:40.076] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:30:42.076] [INFO] [main.go:main:17] info log
-[2020-01-12 22:30:42.077] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:30:42.077] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:30:42.077] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:30:44.078] [INFO] [main.go:main:17] info log
-[2020-01-12 22:30:44.078] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:30:44.078] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:30:44.078] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:30:46.079] [INFO] [main.go:main:17] info log
-[2020-01-12 22:30:46.079] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:30:46.079] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:30:46.079] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:31:02.718] [INFO] [main.go:main:17] info log
-[2020-01-12 22:31:02.718] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:31:02.718] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:31:02.718] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:31:04.722] [INFO] [main.go:main:17] info log
-[2020-01-12 22:31:04.722] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:31:04.722] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:31:04.722] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:31:06.725] [INFO] [main.go:main:17] info log
-[2020-01-12 22:31:06.725] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:31:06.725] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:31:06.725] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:31:08.726] [INFO] [main.go:main:17] info log
-[2020-01-12 22:31:08.726] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:31:08.726] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:31:08.726] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:31:10.731] [INFO] [main.go:main:17] info log
-[2020-01-12 22:31:10.732] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:31:10.732] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:31:10.732] [FATAL] [main.go:main:20] Fatal log
-[2020-01-12 22:31:12.734] [INFO] [main.go:main:17] info log
-[2020-01-12 22:31:12.734] [WARNING] [main.go:main:18] warning log
-[2020-01-12 22:31:12.734] [ERROR] [main.go:main:19] Error log,err:err get user name
-[2020-01-12 22:31:12.734] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:32.946] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:32.947] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:32.947] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:32.947] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:33.948] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:33.948] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:33.948] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:33.948] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:34.949] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:34.949] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:34.949] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:34.950] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:35.952] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:35.952] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:35.952] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:35.952] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:36.953] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:36.953] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:36.954] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:36.954] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:37.955] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:37.955] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:37.955] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:37.955] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:38.957] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:38.957] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:38.957] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:38.957] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:39.958] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:39.958] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:39.958] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:39.959] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:40.960] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:40.960] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:40.960] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:40.960] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:41.961] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:41.961] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:41.961] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:41.961] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:42.962] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:42.962] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:42.962] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:42.962] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:43.963] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:43.963] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:43.964] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:43.964] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:44.965] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:44.965] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:44.965] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:44.965] [FATAL] [main.go:main:20] Fatal log
+[2020-01-12 23:14:45.965] [INFO] [main.go:main:17] info log
+[2020-01-12 23:14:45.965] [WARNING] [main.go:main:18] warning log
+[2020-01-12 23:14:45.965] [ERROR] [main.go:main:19] Error log,err:err get user name
+[2020-01-12 23:14:45.965] [FATAL] [main.go:main:20] Fatal log
