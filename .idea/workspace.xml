@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="234c2c72-3a42-4d69-a153-1fa34a47493a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/go_dev/06-结构体/09-序列化/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_dev/13-配置文件解析/01-ini/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_dev/13-配置文件解析/01-ini/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/config111.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,20 +33,46 @@
     <favorites_list name="GoPro" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/go_dev/06-结构体/09-序列化/main/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding>
-                <element signature="e#14#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.53136533">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/main.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="139">
+                  <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#14#94#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/config111.toml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="247">
+                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/config.toml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="361">
+                  <caret line="19" selection-start-line="19" selection-end-line="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,6 +110,12 @@
         <option value="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/consule.go" />
         <option value="$PROJECT_DIR$/src/go_dev/12-日志库/MYLOGGER/main/main.go" />
         <option value="$PROJECT_DIR$/src/go_dev/06-结构体/09-序列化/main/main.go" />
+        <option value="$PROJECT_DIR$/src/go_dev/13-ini配置文件解析/config.ini" />
+        <option value="$PROJECT_DIR$/src/go_dev/13-ini配置文件解析/main.go" />
+        <option value="$PROJECT_DIR$/src/go_dev/13-配置文件解析/01-ini/main.go" />
+        <option value="$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/env.toml" />
+        <option value="$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/config.toml" />
+        <option value="$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/main.go" />
       </list>
     </option>
   </component>
@@ -96,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,53 +155,29 @@
               <item name="GoPro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="go_dev" type="462c0819:PsiDirectoryNode" />
-              <item name="06-结构体" type="462c0819:PsiDirectoryNode" />
+              <item name="13-配置文件解析" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoPro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="go_dev" type="462c0819:PsiDirectoryNode" />
-              <item name="06-结构体" type="462c0819:PsiDirectoryNode" />
-              <item name="09-序列化" type="462c0819:PsiDirectoryNode" />
+              <item name="13-配置文件解析" type="462c0819:PsiDirectoryNode" />
+              <item name="01-ini" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoPro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="go_dev" type="462c0819:PsiDirectoryNode" />
-              <item name="06-结构体" type="462c0819:PsiDirectoryNode" />
-              <item name="09-序列化" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="go_dev" type="462c0819:PsiDirectoryNode" />
-              <item name="10-文件操作" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="go_dev" type="462c0819:PsiDirectoryNode" />
-              <item name="10-文件操作" type="462c0819:PsiDirectoryNode" />
-              <item name="07-文件详细信息获取" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="go_dev" type="462c0819:PsiDirectoryNode" />
-              <item name="10-文件操作" type="462c0819:PsiDirectoryNode" />
-              <item name="07-文件详细信息获取" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="13-配置文件解析" type="462c0819:PsiDirectoryNode" />
+              <item name="02-toml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -194,19 +205,19 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/go_dev/10-文件操作/06-用户输入/main" />
-      <recent name="$PROJECT_DIR$/go_dev/10-文件操作/01-基本读取" />
-      <recent name="$PROJECT_DIR$/go_dev/08-终端读写/02-带缓冲区的读写/main" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/go_dev/10-文件操作/07-文件详细信息获取" />
       <recent name="$PROJECT_DIR$/src/go_dev/12-日志库/01-runtime-dome" />
       <recent name="$PROJECT_DIR$/go_dev/12-日志库/MYLOGGER" />
       <recent name="$PROJECT_DIR$/go_dev/12-日志库" />
       <recent name="$PROJECT_DIR$/go_dev" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/go_dev/13-配置文件解析/01-ini" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/go_dev/10-文件操作/06-用户输入/main" />
+      <recent name="$PROJECT_DIR$/go_dev/10-文件操作/01-基本读取" />
+      <recent name="$PROJECT_DIR$/go_dev/08-终端读写/02-带缓冲区的读写/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -230,11 +241,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPro" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_dev/12-日志库/main/main.go" />
+      <filePath value="$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -263,19 +274,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go (3)" />
       <item itemvalue="Go Build.go build main.go (4)" />
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (5)" />
       <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build main.go (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -295,20 +306,20 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.65971106" visible="true" weight="0.29654747" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.65971106" visible="true" weight="0.1646116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.34028894" side_tool="true" weight="0.24969174" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20344457" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.459634" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.52529603" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41657695" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2615716" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,16 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="772" column="5" selection-start-line="772" selection-start-column="5" selection-end-line="772" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/go_dev/11-时间/main/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="84" column="80" selection-start-line="84" selection-start-column="80" selection-end-line="84" selection-end-column="80" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,10 +524,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/go_dev/06-结构体/09-序列化/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="222">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
             <element signature="e#14#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/07-反射/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/11-时间/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/13-配置文件解析/01-ini/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/13-配置文件解析/01-ini/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/GoglandProjects/src/github.com/BurntSushi/toml/decode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="587" selection-start-line="587" selection-end-line="587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/config111.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
+          <folding>
+            <element signature="e#14#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
