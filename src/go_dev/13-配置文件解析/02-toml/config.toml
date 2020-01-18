@@ -1,27 +1,33 @@
 # This is a TOML document.
 
-title = "env file"
+title = "TOML Example"
 
-[lf]
-mysql = "asdq2e_lf"
-token = "asdqe_lf"
-etcd_path = "/dc/dsync_lf"
-conn = 100
-debug = true
-redis_center = "toutiao.redis.conf.service.lf"
+[owner]
+name = "Tom Preston-Werner"
+dob = 1979-05-27T07:32:00-08:00 # First class dates
 
-[hl]
-mysql = "asdq2e_hl"
-token = "asdqe_hl"
-etcd_path = "/dc/dsync"
-conn = 100
-debug = false
-redis_center = "toutiao.redis.conf.service.hl"
+[database]
+server = "192.168.1.1"
+ports = [ 8001, 8001, 8002 ]
+connection_max = 5000
+enabled = true
 
-[lq]
-mysql = "asdq2e_lq"
-token = "asdqe_lq"
-etcd_path = "/dc/dsync"
-conn = 100
-debug = false
-redis_center = "toutiao.redis.conf.service.lq"
+[servers]
+
+  # Indentation (tabs and/or spaces) is allowed but not required
+  [servers.alpha]
+  ip = "10.0.0.1"
+  dc = "eqdc10"
+
+  [servers.beta]
+  ip = "10.0.0.2"
+  dc = "eqdc10"
+
+[clients]
+data = [ ["gamma", "delta"], [1, 2] ]
+
+# Line breaks are OK when inside arrays
+hosts = [
+  "alpha",
+  "omega"
+]

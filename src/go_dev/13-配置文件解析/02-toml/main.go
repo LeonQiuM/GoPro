@@ -93,7 +93,7 @@ type envConf struct {
 //	// 单例模式，配置文件只读取一次
 //	var cfg tomlConfig
 //	once.Do(func() {
-//		filePath, err := filepath.Abs("/Users/qiumeng/GOSPACE/GoPro/src/go_dev/13-配置文件解析/02-toml/config111.toml")
+//		filePath, err := filepath.Abs("/Users/qiumeng/GOSPACE/GoPro/src/go_dev/13-配置文件解析/02-toml/config.toml")
 //		if err != nil {
 //			panic(err)
 //		}
@@ -108,7 +108,7 @@ func ConfigEnv() *EnvConfig {
 	// 单例模式，配置文件只读取一次
 	var cfg EnvConfig
 	once.Do(func() {
-		filePath, err := filepath.Abs("/Users/qiumeng/GOSPACE/GoPro/src/go_dev/13-配置文件解析/02-toml/config.toml")
+		filePath, err := filepath.Abs("/Users/qiumeng/GOSPACE/GoPro/src/go_dev/13-配置文件解析/02-toml/env.toml")
 		if err != nil {
 			panic(err)
 		}
@@ -125,7 +125,7 @@ func main() {
 	//fmt.Printf("%s\n",con.DB.Server)
 	//fmt.Println(con.Servers["alpha"])
 	//var config tomlConfig
-	//filePath := "/Users/qiumeng/GOSPACE/GoPro/src/go_dev/13-配置文件解析/02-toml/config111.toml"
+	//filePath := "/Users/qiumeng/GOSPACE/GoPro/src/go_dev/13-配置文件解析/02-toml/config.toml"
 	//if _, err := toml.DecodeFile(filePath, &config); err != nil {
 	//	panic(err)
 	//}
