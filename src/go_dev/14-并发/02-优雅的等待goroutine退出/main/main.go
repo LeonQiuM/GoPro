@@ -14,6 +14,7 @@ func main() {
 		wg.Add(1)
 		go f1(i)
 	}
+
 	wg.Wait()
 }
 
