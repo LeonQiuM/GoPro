@@ -78,7 +78,7 @@ func (f *FileLogger) FilelogSave(lv LEVEL, msg string, arg ...interface{}) {
 			f.fileObj = newfile
 		}
 		_, _ = fmt.Fprintf(f.fileObj, "[%s] [%s] [%s:%s:%d] %s\n",
-			now.Format("2006-01-02 15:04:05.000"),
+			now.Format("2006-01-举例-02-优雅的等待goroutine退出 15:04:05.000"),
 			UnParseLevel(lv),
 			fileName,
 			funcName,
@@ -93,7 +93,7 @@ func (f *FileLogger) FilelogSave(lv LEVEL, msg string, arg ...interface{}) {
 		}
 		if lv >= ERROR {
 			_, _ = fmt.Fprintf(f.errFileObj, "[%s] [%s] [%s:%s:%d] %s\n",
-				now.Format("2006-01-02 15:04:05.000"),
+				now.Format("2006-01-举例-02-优雅的等待goroutine退出 15:04:05.000"),
 				UnParseLevel(lv),
 				fileName,
 				funcName,

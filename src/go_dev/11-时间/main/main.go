@@ -39,13 +39,13 @@ func main() {
 	//}
 
 	// 时间格式化，与时间对象转换为字符串类型
-	fmt.Println(now.Format("2006-01-02"))
-	fmt.Println(now.Format("2006-01-02_3:04:05"))
-	fmt.Println(now.Format("2006-01-02_3:04:05.0000000"))
-	fmt.Println(now.Format("2006-01-02_15:04:05"))
-	fmt.Println(now.Format("2006-01-02_03:04:05 PM"))
+	fmt.Println(now.Format("2006-01-举例-02-优雅的等待goroutine退出"))
+	fmt.Println(now.Format("2006-01-举例-02_3:04:05"))
+	fmt.Println(now.Format("2006-01-举例-02_3:04:05.0000000"))
+	fmt.Println(now.Format("2006-01-举例-02_15:04:05"))
+	fmt.Println(now.Format("2006-01-举例-02_03:04:05 PM"))
 	// 哪找格式字符串转换为时间戳
-	timeObj, err := time.Parse("2006-01-02_15:04:05", "1992-05-27_12:33:10")
+	timeObj, err := time.Parse("2006-01-举例-02_15:04:05", "1992-05-27_12:33:10")
 	if err != nil {
 		fmt.Println("parse time failed")
 	}
@@ -73,7 +73,7 @@ func f2() {
 	now := time.Now() // 本地时间
 	fmt.Println(now)
 	// 明天的这个时间
-	time.Parse("2006-01-02 15:04:05", "2020-01-12 19:30:05") // 解析出来为 utc 时间
+	time.Parse("2006-01-举例-02-优雅的等待goroutine退出 15:04:05", "2020-01-举例-12 19:30:05") // 解析出来为 utc 时间
 	// 根据字符串加载时区
 	loc, err := time.LoadLocation("Asia/Shanghai")
 	if err != nil {
@@ -81,8 +81,8 @@ func f2() {
 		return
 	}
 	// 按照指定时区解析
-	timeObj, err := time.ParseInLocation("2006-01-02 15:04:05", "2020-01-12 19:30:05", loc)
-	timeObj, err = time.ParseInLocation("2006-01-02 15:04:05", "2020-01-12 19:36:05", time.Local)
+	timeObj, err := time.ParseInLocation("2006-01-举例-02-优雅的等待goroutine退出 15:04:05", "2020-01-举例-12 19:30:05", loc)
+	timeObj, err = time.ParseInLocation("2006-01-举例-02-优雅的等待goroutine退出 15:04:05", "2020-01-举例-12 19:36:05", time.Local)
 	if err != nil {
 		fmt.Println("failed2")
 	}

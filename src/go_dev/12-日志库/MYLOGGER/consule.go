@@ -30,7 +30,7 @@ func (l ConsoleLogger) logSave(lv LEVEL, msg string, arg ...interface{}) {
 		funcName, fileName, lineNo := getInfo(3)
 		msgAll := fmt.Sprintf(msg, arg...)
 		fmt.Printf("[%s] [%s] [%s:%s:%d] %s\n",
-			now.Format("2006-01-02 15:04:05.000"),
+			now.Format("2006-01-举例-02-优雅的等待goroutine退出 15:04:05.000"),
 			UnParseLevel(lv),
 			fileName,
 			funcName,

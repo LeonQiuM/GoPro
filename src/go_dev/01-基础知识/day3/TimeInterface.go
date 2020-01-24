@@ -11,10 +11,10 @@ func S() {
 
 func main() {
 	now := time.Now()
-	fmt.Println(now.Format("02/1/2006 15:04"))
-	fmt.Println(now.Format("2006/1/02 15:04"))
-	fmt.Println(now.Format("2006/1/02 3:04"))
-	fmt.Println(now.Format("2006/1/02 3:04"))
+	fmt.Println(now.Format("02-优雅的等待goroutine退出/1/2006 15:04"))
+	fmt.Println(now.Format("2006/1/02-优雅的等待goroutine退出 15:04"))
+	fmt.Println(now.Format("2006/1/02-优雅的等待goroutine退出 3:04"))
+	fmt.Println(now.Format("2006/1/02-优雅的等待goroutine退出 3:04"))
 
 	start := time.Now().UnixNano()
 	S()
