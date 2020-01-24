@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="234c2c72-3a42-4d69-a153-1fa34a47493a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/03-任务分配CPU/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/go_dev/14-并发/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/14-并发/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/go_dev/14-并发/02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/go_dev/14-并发/03-任务分配CPU" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
@@ -83,14 +84,14 @@
       <recent name="$PROJECT_DIR$/go_dev/08-终端读写/02-带缓冲区的读写/main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/go_dev/14-并发/03-任务分配CPU" />
       <recent name="$PROJECT_DIR$/src/go_dev/14-并发/02" />
       <recent name="$PROJECT_DIR$/src/go_dev/14-并发/01" />
       <recent name="$PROJECT_DIR$/src/go_dev/10-文件操作/07-文件详细信息获取" />
       <recent name="$PROJECT_DIR$/src/go_dev/12-日志库/01-runtime-dome" />
-      <recent name="$PROJECT_DIR$/go_dev/12-日志库/MYLOGGER" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build GoPro/src/go_dev/14-并发/03-任务分配CPU/main">
     <configuration name="go build GoPro/src/go_dev/14-并发/02-优雅的等待goroutine退出/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -100,11 +101,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoPro/src/go_dev/14-并发/03-任务分配CPU/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPro" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/go_dev/13-配置文件解析/02-toml/main.go" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/go_dev/14-并发/03-任务分配CPU/main/main.go" />
+      <package value="GoPro/src/go_dev/14-并发/03-任务分配CPU/main" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -136,19 +138,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build main.go (3)" />
       <item itemvalue="Go Build.go build main.go (4)" />
       <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/02-优雅的等待goroutine退出/main" />
       <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/03-任务分配CPU/main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/03-任务分配CPU/main" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/02-优雅的等待goroutine退出/main" />
         <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,42 +185,46 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="821" y="58" key="#GOROOT/0.23.1920.1177@0.23.1920.1177" timestamp="1578491244030" />
-    <state x="231" y="132" key="CommitChangelistDialog2" timestamp="1579867143939">
+    <state x="231" y="132" key="CommitChangelistDialog2" timestamp="1579868778332">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="231" y="132" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1579867143939" />
+    <state x="231" y="132" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1579868778332" />
     <state x="231" y="152" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1578497519112" />
     <state x="231" y="118" key="CommitChangelistDialog2/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672388776" />
-    <state width="1051" height="232" key="GridCell.Tab.0.bottom" timestamp="1579866939372">
+    <state width="915" height="596" key="GridCell.Tab.0.bottom" timestamp="1579870176581">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1051" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579866939372" />
+    <state width="915" height="596" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579870176581" />
     <state width="995" height="216" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.bottom/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410098" />
-    <state width="1051" height="232" key="GridCell.Tab.0.center" timestamp="1579866939370">
+    <state width="915" height="596" key="GridCell.Tab.0.center" timestamp="1579870176580">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1051" height="232" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579866939370" />
+    <state width="915" height="596" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579870176580" />
     <state width="995" height="216" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.center/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410097" />
-    <state width="1051" height="232" key="GridCell.Tab.0.left" timestamp="1579866939370">
+    <state width="915" height="596" key="GridCell.Tab.0.left" timestamp="1579870176579">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1051" height="232" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579866939370" />
+    <state width="915" height="596" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579870176579" />
     <state width="995" height="216" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.left/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410096" />
-    <state width="1051" height="232" key="GridCell.Tab.0.right" timestamp="1579866939371">
+    <state width="915" height="596" key="GridCell.Tab.0.right" timestamp="1579870176581">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1051" height="232" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579866939371" />
+    <state width="915" height="596" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579870176581" />
     <state width="995" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.right/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410097" />
-    <state x="460" y="277" key="Vcs.Push.Dialog.v2" timestamp="1579867145998">
+    <state x="460" y="277" key="Vcs.Push.Dialog.v2" timestamp="1579868781321">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="460" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1579867145998" />
+    <state x="460" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1579868781321" />
     <state x="460" y="295" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1578497521956" />
     <state x="460" y="250" key="Vcs.Push.Dialog.v2/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672391580" />
+    <state x="1195" y="276" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1579869966952">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="1195" y="276" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1579869966952" />
     <state x="702" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579866776463">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
