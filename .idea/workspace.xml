@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="234c2c72-3a42-4d69-a153-1fa34a47493a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/04-channel初识/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/05-优雅的从通道取值/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/06-单向通道/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,18 +69,18 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/go_dev/14-并发/05-优雅的从通道取值" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/go_dev/14-并发/06-单向通道" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/go_dev/14-并发/06-单向通道" />
       <recent name="$PROJECT_DIR$/src/go_dev/14-并发/05-优雅的从通道取值" />
       <recent name="$PROJECT_DIR$/src/go_dev/14-并发/04-channel初识" />
       <recent name="$PROJECT_DIR$/src/go_dev/14-并发/03-任务分配CPU" />
       <recent name="$PROJECT_DIR$/src/go_dev/14-并发/02" />
-      <recent name="$PROJECT_DIR$/src/go_dev/14-并发/01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/go_dev/13-配置文件解析/01-ini" />
@@ -185,10 +184,10 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="821" y="58" key="#GOROOT/0.23.1920.1177@0.23.1920.1177" timestamp="1578491244030" />
-    <state x="231" y="132" key="CommitChangelistDialog2" timestamp="1579870380485">
+    <state x="231" y="132" key="CommitChangelistDialog2" timestamp="1579950940422">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="231" y="132" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1579870380485" />
+    <state x="231" y="132" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1579950940422" />
     <state x="231" y="152" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1578497519112" />
     <state x="231" y="118" key="CommitChangelistDialog2/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672388776" />
     <state width="946" height="278" key="GridCell.Tab.0.bottom" timestamp="1579933830614">
@@ -215,10 +214,10 @@
     <state width="946" height="278" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579933830613" />
     <state width="995" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.right/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410097" />
-    <state x="460" y="277" key="Vcs.Push.Dialog.v2" timestamp="1579870382133">
+    <state x="460" y="277" key="Vcs.Push.Dialog.v2" timestamp="1579950942597">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="460" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1579870382133" />
+    <state x="460" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1579950942597" />
     <state x="460" y="295" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1578497521956" />
     <state x="460" y="250" key="Vcs.Push.Dialog.v2/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672391580" />
     <state x="1195" y="276" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1579869966952">
