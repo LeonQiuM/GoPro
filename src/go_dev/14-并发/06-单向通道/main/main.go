@@ -44,7 +44,8 @@ func f1(ch1 chan<- int) { // 定义一个单向通道，只可以向通道内发
 }
 
 func f2(ch1 <-chan int, ch2 chan<- int) { // <-chan 只能取值
-	//	chan<- 只能存值
+	//	chan<- 只写
+	//	<-chan 只读
 	for {
 		x, ok := <-ch1
 		if !ok {

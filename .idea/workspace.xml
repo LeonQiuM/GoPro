@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="234c2c72-3a42-4d69-a153-1fa34a47493a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/07-goroutine线程池-举例/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/08-worker-pool/main/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/go_dev/14-并发/06-单向通道/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/14-并发/06-单向通道/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/go_dev/14-并发/08-worker-pool/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/14-并发/08-worker-pool/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,16 +91,7 @@
       <recent name="$PROJECT_DIR$/go_dev/08-终端读写/02-带缓冲区的读写/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
-    <configuration name="go build GoPro/src/go_dev/14-并发/03-任务分配CPU/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoPro" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/go_dev/14-并发/03-任务分配CPU/main/main.go" />
-      <package value="GoPro/src/go_dev/14-并发/03-任务分配CPU/main" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build GoPro/src/go_dev/14-并发/08-worker-pool/main">
     <configuration name="go build GoPro/src/go_dev/14-并发/05-优雅的从通道取值/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPro" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -110,12 +101,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoPro/src/go_dev/14-并发/08-worker-pool/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoPro" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/go_dev/14-并发/04-channel初识/main/main.go" />
-      <package value="GoPro" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/go_dev/14-并发/08-worker-pool/main/main.go" />
+      <package value="GoPro/src/go_dev/14-并发/08-worker-pool/main" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -137,20 +128,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoPro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/go_dev/14-并发/08-worker-pool/main/main.go" />
+      <package value="GoPro" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/03-任务分配CPU/main" />
-      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/05-优雅的从通道取值/main" />
       <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build main.go (3)" />
+      <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/08-worker-pool/main" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/08-worker-pool/main" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/05-优雅的从通道取值/main" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build GoPro/src/go_dev/14-并发/03-任务分配CPU/main" />
       </list>
     </recent_temporary>
   </component>
@@ -185,40 +185,44 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="821" y="58" key="#GOROOT/0.23.1920.1177@0.23.1920.1177" timestamp="1578491244030" />
-    <state x="231" y="132" key="CommitChangelistDialog2" timestamp="1579951837157">
+    <state x="231" y="132" key="CommitChangelistDialog2" timestamp="1579952677835">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="231" y="132" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1579951837157" />
+    <state x="231" y="132" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1579952677835" />
     <state x="231" y="152" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1578497519112" />
     <state x="231" y="118" key="CommitChangelistDialog2/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672388776" />
-    <state width="978" height="278" key="GridCell.Tab.0.bottom" timestamp="1579952574451">
+    <state width="1862" height="249" key="GridCell.Tab.0.bottom" timestamp="1582287562209">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="978" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579952574451" />
+    <state width="1862" height="249" key="GridCell.Tab.0.bottom/-198.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1582287562209" />
+    <state width="1862" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580457603151" />
     <state width="995" height="216" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.bottom/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410098" />
-    <state width="978" height="278" key="GridCell.Tab.0.center" timestamp="1579952574449">
+    <state width="1862" height="249" key="GridCell.Tab.0.center" timestamp="1582287562207">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="978" height="278" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579952574449" />
+    <state width="1862" height="249" key="GridCell.Tab.0.center/-198.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1582287562207" />
+    <state width="1862" height="280" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580457603150" />
     <state width="995" height="216" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.center/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410097" />
-    <state width="978" height="278" key="GridCell.Tab.0.left" timestamp="1579952574449">
+    <state width="1862" height="249" key="GridCell.Tab.0.left" timestamp="1582287562206">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="978" height="278" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579952574449" />
+    <state width="1862" height="249" key="GridCell.Tab.0.left/-198.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1582287562206" />
+    <state width="1862" height="280" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580457603150" />
     <state width="995" height="216" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.left/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410096" />
-    <state width="978" height="278" key="GridCell.Tab.0.right" timestamp="1579952574450">
+    <state width="1862" height="249" key="GridCell.Tab.0.right" timestamp="1582287562208">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="978" height="278" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579952574450" />
+    <state width="1862" height="249" key="GridCell.Tab.0.right/-198.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1582287562208" />
+    <state width="1862" height="280" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580457603151" />
     <state width="995" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.right/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410097" />
-    <state x="460" y="277" key="Vcs.Push.Dialog.v2" timestamp="1579951838825">
+    <state x="460" y="277" key="Vcs.Push.Dialog.v2" timestamp="1579952679498">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="460" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1579951838825" />
+    <state x="460" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1579952679498" />
     <state x="460" y="295" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1578497521956" />
     <state x="460" y="250" key="Vcs.Push.Dialog.v2/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672391580" />
     <state x="1195" y="276" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1579869966952">
