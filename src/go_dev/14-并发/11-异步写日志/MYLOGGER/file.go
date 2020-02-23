@@ -11,6 +11,8 @@ import (
 /*
 
  */
+const maxChanSize = 50000
+
 type FileLogger struct {
 	LogLevel    LEVEL
 	filePath    string
@@ -40,7 +42,7 @@ func NewFileLogger(levelStr, fp, fn string, maxSize int64) *FileLogger {
 		filePath:    fp,
 		fileName:    fn,
 		maxFileSize: maxSize,
-		logChan:     make(chan *logMsg, 50000),
+		logChan:     make(chan *logMsg, maxChanSize),
 	}
 	fl.LogLevel = level
 	fl.filePath = fp
@@ -111,10 +113,8 @@ func (f *FileLogger) initFile() error {
 	}
 	f.fileObj = fileObj
 	f.errFileObj = errFileObj
-	// 开启多个单独goroutine来用于写日志
-	for i := 0; i < 5; i++ {
-		go f.writeLogBackground()
-	}
+	// 开启单独goroutine来用于写日志
+	go f.writeLogBackground()
 	return nil
 }
 

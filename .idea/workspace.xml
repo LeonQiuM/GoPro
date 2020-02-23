@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="234c2c72-3a42-4d69-a153-1fa34a47493a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/11-异步写日志/MYLOGGER/consule.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/11-异步写日志/MYLOGGER/file.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/11-异步写日志/MYLOGGER/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go_dev/14-并发/11-异步写日志/MYLOGGER/mylogger.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go_dev/14-并发/08-worker-pool/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/14-并发/08-worker-pool/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/go_dev/14-并发/11-异步写日志/MYLOGGER/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/go_dev/14-并发/11-异步写日志/MYLOGGER/file.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,10 +189,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="584" y="394" key="#com.intellij.fileTypes.FileTypeChooser/-198.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1582469128273" />
-    <state x="231" y="132" key="CommitChangelistDialog2" timestamp="1582463292916">
+    <state x="231" y="132" key="CommitChangelistDialog2" timestamp="1582470209373">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="231" y="132" key="CommitChangelistDialog2/-198.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1582463292916" />
+    <state x="231" y="132" key="CommitChangelistDialog2/-198.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1582470209373" />
     <state x="231" y="132" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1579952677835" />
     <state x="231" y="152" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1578497519112" />
     <state x="231" y="118" key="CommitChangelistDialog2/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672388776" />
@@ -232,10 +228,10 @@
     <state width="1862" height="280" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580457603151" />
     <state width="995" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1578493550481" />
     <state width="1862" height="492" key="GridCell.Tab.0.right/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672410097" />
-    <state x="460" y="277" key="Vcs.Push.Dialog.v2" timestamp="1582463297828">
+    <state x="460" y="277" key="Vcs.Push.Dialog.v2" timestamp="1582470211476">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="460" y="277" key="Vcs.Push.Dialog.v2/-198.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1582463297828" />
+    <state x="460" y="277" key="Vcs.Push.Dialog.v2/-198.-1080.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1582470211476" />
     <state x="460" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1579952679498" />
     <state x="460" y="295" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1578497521956" />
     <state x="460" y="250" key="Vcs.Push.Dialog.v2/1920.-87.1080.1920/0.0.1920.1080@0.0.1920.1080" timestamp="1579672391580" />
