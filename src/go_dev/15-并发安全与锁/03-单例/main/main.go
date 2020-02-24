@@ -1,0 +1,45 @@
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+/*
+关闭channel
+*/
+
+var wg sync.WaitGroup
+var once sync.Once
+
+func f1(ch chan<- int) {
+	defer wg.Done()
+	for i := 0; i < 100; i++ {
+		ch <- i
+	}
+	close(ch)
+}
+func f2(ch1 <-chan int, ch2 chan<- int) {
+	defer wg.Done()
+	for {
+		x, ok := <-ch1
+		if !ok {
+			break
+		}
+		ch2 <- x * x
+	}
+	once.Do(func() { close(ch2) })
+}
+
+func main() {
+	a := make(chan int, 100)
+	b := make(chan int, 100)
+	wg.Add(3)
+	go f1(a)
+	go f2(a, b)
+	go f2(a, b)
+	wg.Wait()
+	for res := range b {
+		fmt.Println(res)
+	}
+}
